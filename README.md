@@ -149,5 +149,6 @@ odoo scaffold nombreDelMóduloQueQeremosCrear.
 -   docker run -it nombreDelContenedor #para arrancar un contenedor ya creado.
     
 -   docker stop idContenedor #para parar un contenedor ya creado.
+-   docker stop $(docker ps -a -q) #para pausar todos los contenedores en funcionamiento
     
 -   docker exec -u root -t -i nombredelamaquina /bin/bash #ejecutar maquina virtual Docker
