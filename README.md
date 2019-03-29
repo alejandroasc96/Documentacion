@@ -12,7 +12,7 @@ rel_field = fields.Char(string='Name',related='partner_id.name')
 **fields.Char** indicamos el tipo de campo que vamos a otorgarle (este debe coincidir con el que hereda)
 
  El parámetro __store__ nos permite almacenar el valor en la base de datos.
-```c
+```python
 rel_field = fields.Char(string='Name',store=True,related='partner_id.name')
 ```
 ## Ejemplo
@@ -37,6 +37,7 @@ Y para finalizar dado que estamos usando la vista de Producto y Factura habrá q
 
 ### Consejo
 Con esta sentencia **` 'application': 'True',`** conseguimos que nuestra aplicación esté en el listado principal de nuestro Odoo por lo que nos facilitará la búsqueda.
+
 ### Resultado:
 
 **Vista sin modificar:**
