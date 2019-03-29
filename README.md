@@ -3,7 +3,7 @@
 Muchas veces a la hora de programar en Odoo nos encontraremos con casos en lo que queremos trabajar  con campos que se encuentran en otros modelos. Para poder hacerlo Odoo nos facilita la posibilidad de usar campos relacionados que lo que viene hacer de forma resumida es enlazar un campo del modelo X con otro campo del modelo Y. Para poder acceder a la información que contienen habrá que usar la siguiente secuencia
 ### Estructura
 Simplemente establece el argumento del nombre relacionado con su modelo.
-```c
+```python
 rel_field = fields.Char(string='Name',related='partner_id.name')
 ```
 **rel_field** nombre que le ponemos al campo.
