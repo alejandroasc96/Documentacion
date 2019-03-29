@@ -6,10 +6,10 @@ Simplemente establece el argumento del nombre relacionado con su modelo.
 ```python
 rel_field = fields.Char(string='Name',related='partner_id.name')
 ```
-**rel_field** nombre que le ponemos al campo.
-**string=' '** etiqueta que tendrá nuestro campo.
-**related** declaración de la relación.
-**fields.Char** indicamos el tipo de campo que vamos a otorgarle (este debe coincidir con el que hereda)
+- **rel_field** nombre que le ponemos al campo.
+- **string=' '** etiqueta que tendrá nuestro campo.
+- **related** declaración de la relación.
+- **fields.Char** indicamos el tipo de campo que vamos a otorgarle (este debe coincidir con el que hereda).
 
  El parámetro __store__ nos permite almacenar el valor en la base de datos.
 ```python
