@@ -8,8 +8,6 @@ Para poder usarlas deberemos descargar el módulo Reglas de acción automáticas
 ~~~
 Las **automatizaciones planificadas**, son tareas que se ejecutan periódicamente. Por ejemplo, podemos enviar un email mensualmente con el número de becarios de la empresa.
 
-POSIBLE ENLACE A EJEMPLO
 
 Las **automatizaciones automáticas**, son tareas que se ejecutan dependiendo de un evento. Por ejemplo, cuando a una suscripción activa solo le quedan 30 días, se lanza un evento para notificarle al cliente que se le va a caducar dicho servicio.
 
-POSIBLE ENLACE A EJEMPLO
